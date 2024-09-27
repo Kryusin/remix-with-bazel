@@ -1,36 +1,17 @@
-# Welcome to Remix + Vite!
+# Remix with bazel
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+## インストール方法
+1. cloneする。
+[プロジェクトをcloneする](https://github.com/ryudedev/remix-with-bazel.git)
 
-## Development
-
-Run the Vite dev server:
-
-```shellscript
+2. サーバーを起動する。
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+3. ブラウザーを確認する。
+[https://localhost:3000](https://localhost:3000)
