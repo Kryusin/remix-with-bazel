@@ -15,3 +15,6 @@ pnpm dev
 
 3. ブラウザーを確認する。
 [https://localhost:3000](https://localhost:3000)
+
+## 背景
+学内のチーム制作でBazelを使用して環境構築をするため、学習用として使用しました。
